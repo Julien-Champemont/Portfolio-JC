@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.root": "/",
+    "liveServer.settings.mount": [
+      {
+        "src": "/",
+        "dest": "/",
+        "route": "/",
+        "middleware": ["php"]
+      }
+    ]
+  }
