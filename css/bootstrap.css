@@ -9427,5 +9427,22 @@ button:hover {
   font-size: 24px;
   color: #fff; /* Couleur de l'icône blanche */
 }
+.bubble {
+  position: absolute;
+  bottom: 40px; /* Position au-dessus de l'icône */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  display: none; /* Cacher la bulle par défaut */
+  white-space: nowrap; /* Empêche le texte de se couper */
+}
 
+.bottom-button:hover .bubble {
+  display: block; /* Afficher la bulle lorsque la souris passe sur le bouton */
+}
 /*# sourceMappingURL=bootstrap.css.map */
